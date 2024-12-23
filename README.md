@@ -14,6 +14,19 @@ Introducción
 Esta API RESTful permite gestionar usuarios mediante operaciones de registro, inicio de sesión y obtención de una lista de usuarios autenticados. Está desarrollada con Node.js, Express y MongoDB.
 El proyecto sigue una arquitectura modular para facilitar la escalabilidad y el mantenimiento.
 
+
+## Introducción  
+
+Esta API RESTful permite gestionar usuarios mediante operaciones de registro, inicio de sesión y obtención de una lista de usuarios autenticados.  
+Está desarrollada con **Node.js**, **Express** y **MongoDB**, utilizando el estándar de **JWT** para la autenticación.  
+
+### Decisiones de diseño  
+- **Arquitectura modular**: Se organizó el código en controladores, middlewares y rutas para facilitar la escalabilidad y el mantenimiento.  
+- **Seguridad**: JWT se usa para proteger los endpoints y manejar sesiones de forma eficiente.  
+- **Escalabilidad**: MongoDB fue elegido por su flexibilidad y capacidad de crecer junto con el sistema.  
+
+
+
 Características
 Registro de usuarios: Permite registrar nuevos usuarios con un correo electrónico y una contraseña.
 Autenticación con JWT: Los usuarios pueden iniciar sesión y recibir un token JWT para acceder a los endpoints protegidos.
